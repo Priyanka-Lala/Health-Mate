@@ -1,0 +1,16 @@
+.appointment_heading{
+    width: 100%;
+    max-width: 72rem;
+    margin: 5px;
+}
+.head{
+    margin-bottom: 3px;
+    font-size: large;
+    font-weight:normal;
+}
+.appointment_details{
+    background-color: aliceblue;
+    max-height: 60vh;
+    overflow-y: scroll;
+    min-height: 100vh;
+}

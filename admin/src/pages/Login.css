@@ -1,0 +1,94 @@
+.form_tag{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.form_container{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin: auto;
+    align-items: start;
+    padding: 8px;
+    min-width: 340px;
+   
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form-contain{
+    font-size: 24px;
+    font-weight: bold;
+    margin: auto;
+}
+.form_lable{
+    width: 100%;
+}
+.input_tag{
+   
+    padding: 2;
+    width: 90%;
+    height: 30px;
+    border: 1 solid ;
+}
+.admin_login{
+    background-color: rgb(187, 227, 235);
+    border: none;
+    color: rgb(34, 34, 34);
+    padding: 8px;
+    font-size: 1rem;
+    width: 60%;
+    margin-top: 8px;
+    align-items: center;
+    margin-left: 50px;
+    border-radius: 10px;
+    line-height: 1.5rem;
+
+}
+.form_login{
+    text-decoration: underline;
+  cursor: pointer;
+  color:rgb(154, 207, 218) ;
+  
+
+}
+@media only screen and (max-width: 600px){
+    .form_tag{
+        min-height: 20vh;
+        width: 70px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .form_container{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        margin: 50px 20px;
+        align-items: start;
+        padding: 8px;
+        min-width: 340px;
+       
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+@media only screen and (max-width: 	540px){
+    .form_tag{
+        min-height: 20vh;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .form_container{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        margin: 60px 10px;
+        align-items: start;
+        padding: 8px;
+        min-width: 340px;
+       
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}

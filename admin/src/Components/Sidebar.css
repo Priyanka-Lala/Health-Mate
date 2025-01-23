@@ -1,0 +1,40 @@
+
+  
+  .navlink img {
+   
+  }
+  
+  .navlink p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar_body {
+    min-height: 200vh;
+   min-width: 350px;
+    border-right: 1px solid black;
+margin-top: 3px;
+margin-left: 0px;
+  }
+  .contain{
+    display: flex;
+    align-items: center;
+    gap: 2;
+    padding: 4;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-top: 15px;
+    
+  }
+  .activelink{
+    background-color: #d1d1f7;
+   border-right: 4px solid purple;
+height: 80px;
+  }
+
+  
+  
+  
+  
+  

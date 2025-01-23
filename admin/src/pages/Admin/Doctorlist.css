@@ -1,0 +1,10 @@
+.doctor_data{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); 
+    gap: 10px;
+    
+}
+.doctor_data p{
+    margin: 0px;
+    padding: 0px;
+}

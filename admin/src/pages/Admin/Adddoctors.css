@@ -1,0 +1,41 @@
+.upload_pic{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.form{
+    width: 100%;
+    margin: 5px;
+}
+.header{
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size:large ;
+}
+.form_data{
+    margin: 0px;
+    padding: 8px 8px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    width: 100%;
+    max-height: 200vh;
+    max-width: 56rem;
+    
+    display: flex;
+     flex-direction: column; 
+}
+.form_contain{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.form_contain p {
+    font-size: 14px;
+    text-align: center;
+    color: #555;
+  }
+  input{
+    border: 1 px solid black;
+    padding: 3px 2px;
+  }
+ 

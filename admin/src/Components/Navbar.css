@@ -1,0 +1,28 @@
+img{
+    height: 100px;
+    width: 100px;
+    margin-top: 0px;
+    }
+    .navbar {
+        box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+        height: 10vh;
+    }
+    .navbar-nav{
+        float: right;
+        margin-left: 500px;
+        gap: 20px;
+    }
+    .panel_name{
+        margin: 50px;
+        border: 1.5px dotted black;
+        padding: 3px;
+        border-radius: 50px;
+    }
+    .logout_btn{
+        background-color: rgb(166, 200, 230);
+        border: none;
+        margin-right: 80px;
+        padding: 5px;
+        font-size: medium;
+        border-radius: 10px;
+    }
